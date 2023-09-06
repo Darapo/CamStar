@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "967992930084",
+    "project_id": "qrscanner-65b75",
+    "storage_bucket": "qrscanner-65b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967992930084:android:57e33b91c8539f6cb20db1",
+        "android_client_info": {
+          "package_name": "com.camstar.redeem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967992930084-ve1lfjfjml88p834imqd8251n39dpv9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx-Y0ppBsOsfQnOK1HiXqLdYS7MNabO24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967992930084-ve1lfjfjml88p834imqd8251n39dpv9o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "967992930084-a5dmg0n0g3j1f2718qt3i2qcfl7750uc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.camstar.redeem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
