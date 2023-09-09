@@ -221,7 +221,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                             children: [
                               Expanded(
                                 child: Align(
-                                  alignment: AlignmentDirectional(-1.0, 0.0),
+                                  alignment: AlignmentDirectional(-1.00, 0.00),
                                   child: TextFormField(
                                     controller: _model.passwordController,
                                     obscureText: !_model.passwordVisibility,
@@ -354,7 +354,8 @@ class _LoginWidgetState extends State<LoginWidget> {
                                                   .passwordController.text),
                                       singleRecord: true,
                                     ).then((s) => s.firstOrNull);
-                                    if (null!) {
+                                    if (_model.loginPhone?.phone !=
+                                        _model.emailAddressController.text) {
                                       var confirmDialogResponse =
                                           await showDialog<bool>(
                                                 context: context,
@@ -566,7 +567,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                             children: [
                               Expanded(
                                 child: Align(
-                                  alignment: AlignmentDirectional(1.0, 0.0),
+                                  alignment: AlignmentDirectional(1.00, 0.00),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         8.0, 0.0, 8.0, 0.0),
@@ -638,7 +639,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                               ),
                               Expanded(
                                 child: Align(
-                                  alignment: AlignmentDirectional(1.0, 0.0),
+                                  alignment: AlignmentDirectional(1.00, 0.00),
                                   child: Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         8.0, 0.0, 8.0, 0.0),

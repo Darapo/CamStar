@@ -135,7 +135,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
         ),
         elevation: 8.0,
         label: Align(
-          alignment: AlignmentDirectional(0.0, 0.0),
+          alignment: AlignmentDirectional(0.00, 0.00),
           child: Text(
             'ស្កេន',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
@@ -229,7 +229,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
                               children: [],
                             ),
                             Align(
-                              alignment: AlignmentDirectional(0.0, 0.0),
+                              alignment: AlignmentDirectional(0.00, 0.00),
                               child: Column(
                                 mainAxisSize: MainAxisSize.max,
                                 crossAxisAlignment: CrossAxisAlignment.end,
@@ -291,7 +291,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
                           children: [
                             Expanded(
                               child: Align(
-                                alignment: AlignmentDirectional(0.0, 0.0),
+                                alignment: AlignmentDirectional(0.00, 0.00),
                                 child: Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 10.0, 0.0, 0.0),
@@ -315,7 +315,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
                                       children: [
                                         Align(
                                           alignment:
-                                              AlignmentDirectional(0.0, 0.0),
+                                              AlignmentDirectional(0.00, 0.00),
                                           child: Padding(
                                             padding:
                                                 EdgeInsetsDirectional.fromSTEB(
@@ -416,7 +416,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
                                               ),
                                               Align(
                                                 alignment: AlignmentDirectional(
-                                                    1.0, 0.0),
+                                                    1.00, 0.00),
                                                 child: Padding(
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(
@@ -588,7 +588,7 @@ class _HomePageMAINWidgetState extends State<HomePageMAINWidget> {
                             ),
                           ),
                           Align(
-                            alignment: AlignmentDirectional(0.0, 1.0),
+                            alignment: AlignmentDirectional(0.00, 1.00),
                             child: Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   16.0, 0.0, 0.0, 16.0),

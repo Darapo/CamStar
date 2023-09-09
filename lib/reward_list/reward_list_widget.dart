@@ -70,7 +70,7 @@ class _RewardListWidgetState extends State<RewardListWidget> {
           elevation: 0.0,
         ),
         body: Align(
-          alignment: AlignmentDirectional(0.0, 0.0),
+          alignment: AlignmentDirectional(0.00, 0.00),
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [

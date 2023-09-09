@@ -523,6 +523,54 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                       if (_model.passwordController.text ==
                                           _model
                                               .confirmPasswordController.text) {
+                                        if (_model.nameController.text != '') {
+                                          if (_model
+                                                  .phoneNumberController.text ==
+                                              '') {
+                                            await showDialog(
+                                              context: context,
+                                              builder: (alertDialogContext) {
+                                                return AlertDialog(
+                                                  title: Text(
+                                                      'Missing information'),
+                                                  content: Text(
+                                                      'Missing Phone Number'),
+                                                  actions: [
+                                                    TextButton(
+                                                      onPressed: () =>
+                                                          Navigator.pop(
+                                                              alertDialogContext),
+                                                      child: Text('Ok'),
+                                                    ),
+                                                  ],
+                                                );
+                                              },
+                                            );
+                                            return;
+                                          }
+                                        } else {
+                                          await showDialog(
+                                            context: context,
+                                            builder: (alertDialogContext) {
+                                              return AlertDialog(
+                                                title:
+                                                    Text('MIssing information'),
+                                                content:
+                                                    Text('Name is missing'),
+                                                actions: [
+                                                  TextButton(
+                                                    onPressed: () =>
+                                                        Navigator.pop(
+                                                            alertDialogContext),
+                                                    child: Text('Ok'),
+                                                  ),
+                                                ],
+                                              );
+                                            },
+                                          );
+                                          return;
+                                        }
+
                                         await actions.createUserAction(
                                           _model.dropDownValue,
                                           _model.nameController.text,
@@ -669,7 +717,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                               children: [
                                 Expanded(
                                   child: Align(
-                                    alignment: AlignmentDirectional(1.0, 0.0),
+                                    alignment: AlignmentDirectional(1.00, 0.00),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),
@@ -742,7 +790,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                 ),
                                 Expanded(
                                   child: Align(
-                                    alignment: AlignmentDirectional(1.0, 0.0),
+                                    alignment: AlignmentDirectional(1.00, 0.00),
                                     child: Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           8.0, 0.0, 8.0, 0.0),

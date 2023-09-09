@@ -513,6 +513,7 @@ class _BookNowWidgetState extends State<BookNowWidget>
                                   FormFieldController<List<String>>(
                                 [],
                               ),
+                              wrapped: true,
                             ),
                           ),
                         ),

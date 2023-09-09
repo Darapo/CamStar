@@ -1,6 +1,7 @@
 import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -146,7 +147,7 @@ class _MyTripsWidgetState extends State<MyTripsWidget> {
                                                 Align(
                                                   alignment:
                                                       AlignmentDirectional(
-                                                          0.0, 0.0),
+                                                          0.00, 0.00),
                                                   child: ClipRRect(
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -265,7 +266,7 @@ class _MyTripsWidgetState extends State<MyTripsWidget> {
                                                   Align(
                                                     alignment:
                                                         AlignmentDirectional(
-                                                            0.0, 0.0),
+                                                            0.00, 0.00),
                                                     child: Padding(
                                                       padding:
                                                           EdgeInsetsDirectional
@@ -292,7 +293,7 @@ class _MyTripsWidgetState extends State<MyTripsWidget> {
                                                   Align(
                                                     alignment:
                                                         AlignmentDirectional(
-                                                            -1.0, 0.0),
+                                                            -1.00, 0.00),
                                                     child: Padding(
                                                       padding:
                                                           EdgeInsetsDirectional
@@ -321,7 +322,7 @@ class _MyTripsWidgetState extends State<MyTripsWidget> {
                                                   Align(
                                                     alignment:
                                                         AlignmentDirectional(
-                                                            -1.0, 0.0),
+                                                            -1.00, 0.00),
                                                     child: Text(
                                                       columnProductsRecord
                                                           .description,

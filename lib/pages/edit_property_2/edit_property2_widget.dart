@@ -134,7 +134,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel1,
                                     updateCallback: () => setState(() {}),
@@ -182,7 +182,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel2,
                                     updateCallback: () => setState(() {}),
@@ -230,7 +230,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel3,
                                     updateCallback: () => setState(() {}),
@@ -279,7 +279,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel4,
                                     updateCallback: () => setState(() {}),
@@ -327,7 +327,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel5,
                                     updateCallback: () => setState(() {}),
@@ -375,7 +375,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel6,
                                     updateCallback: () => setState(() {}),
@@ -423,7 +423,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel7,
                                     updateCallback: () => setState(() {}),
@@ -471,7 +471,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel8,
                                     updateCallback: () => setState(() {}),
@@ -519,7 +519,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel9,
                                     updateCallback: () => setState(() {}),
@@ -567,7 +567,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Align(
-                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  alignment: AlignmentDirectional(0.00, 0.00),
                                   child: wrapWithModel(
                                     model: _model.amenitityIndicatorModel10,
                                     updateCallback: () => setState(() {}),
@@ -618,7 +618,7 @@ class _EditProperty2WidgetState extends State<EditProperty2Widget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
                                   Align(
-                                    alignment: AlignmentDirectional(0.0, 0.0),
+                                    alignment: AlignmentDirectional(0.00, 0.00),
                                     child: wrapWithModel(
                                       model: _model.amenitityIndicatorModel11,
                                       updateCallback: () => setState(() {}),

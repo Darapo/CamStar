@@ -3,6 +3,7 @@ import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import '/pages/property_details_owner/property_details_owner_widget.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +34,7 @@ class _MyPropertiesWidgetState extends State<MyPropertiesWidget>
       vsync: this,
       length: 2,
       initialIndex: 0,
-    );
+    )..addListener(() => setState(() {}));
   }
 
   @override
@@ -103,7 +104,6 @@ class _MyPropertiesWidgetState extends State<MyPropertiesWidget>
                       ),
                     ],
                     controller: _model.tabBarController,
-                    onTap: (value) => setState(() {}),
                   ),
                 ),
                 Expanded(

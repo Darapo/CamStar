@@ -221,7 +221,7 @@ class _TripDetailsWidgetState extends State<TripDetailsWidget> {
                             borderRadius: BorderRadius.circular(16.0),
                           ),
                           child: Align(
-                            alignment: AlignmentDirectional(0.0, 0.0),
+                            alignment: AlignmentDirectional(0.00, 0.00),
                             child: InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,

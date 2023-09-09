@@ -59,7 +59,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
+                      alignment: AlignmentDirectional(0.00, 0.00),
                       child: Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(
                             0.0, 250.0, 0.0, 0.0),
@@ -103,7 +103,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
+                      alignment: AlignmentDirectional(0.00, 0.00),
                       child: FFButtonWidget(
                         onPressed: () async {
                           _model.scanqr =
@@ -146,7 +146,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                       ),
                     ),
                     Align(
-                      alignment: AlignmentDirectional(0.0, 0.0),
+                      alignment: AlignmentDirectional(0.00, 0.00),
                       child: Text(
                         'Hello World',
                         style: FlutterFlowTheme.of(context).bodyMedium,

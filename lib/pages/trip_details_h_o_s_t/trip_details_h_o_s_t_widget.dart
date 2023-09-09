@@ -206,7 +206,7 @@ class _TripDetailsHOSTWidgetState extends State<TripDetailsHOSTWidget> {
                             borderRadius: BorderRadius.circular(16.0),
                           ),
                           child: Align(
-                            alignment: AlignmentDirectional(0.0, 0.0),
+                            alignment: AlignmentDirectional(0.00, 0.00),
                             child: InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,
@@ -658,7 +658,7 @@ class _TripDetailsHOSTWidgetState extends State<TripDetailsHOSTWidget> {
                       Stack(
                         children: [
                           Align(
-                            alignment: AlignmentDirectional(0.0, 0.0),
+                            alignment: AlignmentDirectional(0.00, 0.00),
                             child: FFButtonWidget(
                               onPressed: () async {
                                 Navigator.push(
